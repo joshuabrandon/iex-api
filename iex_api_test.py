@@ -46,7 +46,8 @@ def price_target_call(symbol_list):
     df = pd.DataFrame(data)
     
     return df
-    
+
+# Test the code    
 symbol_list = ['aapl','tsla']
 
 df = price_target_call(symbol_list)
