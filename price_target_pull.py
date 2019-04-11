@@ -4,7 +4,6 @@ from urllib.request import urlopen
 
 def call_url(method_url):
     """Base URL with personal auth token for call to IEX Cloud API.
-    API docs: https://iexcloud.io/docs/api/#query-parameters
     
     Keyword arguments:
     - method_url: the specific method URL snippet for the data pull
